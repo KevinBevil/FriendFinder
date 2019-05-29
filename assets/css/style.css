@@ -7,10 +7,12 @@ body {
 }
 
 .btn {
+   padding-top: 15px;
    background-color: #E98074;
    color: white;
 }
 .btn:hover {
+   padding-top: 15px;
    background-color: #E85A4F;
    transition: 0.4s;
    padding: 10px 20px 10px 20px;

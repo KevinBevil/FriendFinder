@@ -1,18 +1,17 @@
 body {
    background-color: rgb(85, 85, 83);
 }
-.jumbotron {
+.container, .jumbotron, .footer {
    background-color: #EAE7DC;
    color: #8E8D8A;
 }
 
 .btn {
    background-color: #E98074;
-   opacity: .7;
+   color: white;
 }
 .btn:hover {
    background-color: #E85A4F;
-   opacity: 1.0;
    transition: 0.4s;
    padding: 10px 20px 10px 20px;
 }
@@ -24,7 +23,7 @@ body {
    margin-right: 10px;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
    font-family: 'Varela', sans-serif;
 
    color: rgb(85, 85, 83);

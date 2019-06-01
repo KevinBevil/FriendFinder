@@ -51,7 +51,7 @@ var friendList = [
       ]
    },
    {
-      name: "Huney",
+      name: "Derpa",
       photo: "https://scstylecaster.files.wordpress.com/2015/06/gettyimages-637747414.jpg",
       scores: [
          3,

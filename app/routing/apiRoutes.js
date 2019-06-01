@@ -25,10 +25,10 @@ module.exports = function (app) {
 
 
       for (i = 0; i < friendLength; i++) {
+         // reset diffTotal for next user/friend comparison
          diffTotal = 0;
          for (j = 0; j < quizLength; j++) {
             diffTotal += Math.abs(yourScoreArray[j] - friendData[i].scores[j]);
-            console.log(Math.abs(yourScoreArray[j] - friendData[i].scores[j]));
          }
          if (diffTotal < closestFit) {
             closestFit = diffTotal;
@@ -37,7 +37,14 @@ module.exports = function (app) {
          }
       }
 
+      var theOne = [
+         {
+            name: bestFriend,
+            pic: bestFriendPic
+         }
+      ];
       console.log("Your best friend is " + bestFriend + " and dude's picture is " + bestFriendPic);
+      res.json(theOne);
 
    })
 }

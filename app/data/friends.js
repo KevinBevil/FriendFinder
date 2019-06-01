@@ -84,7 +84,7 @@ var friendList = [
    },
    {
       name: "Momo",
-      photo: "https://specials-images.forbesimg.com/imageserve/5c798bc1a7ea431000441aca/960x0.jpg?fit=scale",
+      photo: "https://specials-images.forbesimg.com/imageserve/5c798bc1a7ea431000441aca/960x0.jpg",
       scores: [
          5,
          5,
